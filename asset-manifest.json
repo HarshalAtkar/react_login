@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react_login/static/css/main.a62cbe80.css",
-    "main.js": "/react_login/static/js/main.519e5f8d.js",
-    "static/js/453.38e4fb67.chunk.js": "/react_login/static/js/453.38e4fb67.chunk.js",
-    "index.html": "/react_login/index.html",
-    "main.a62cbe80.css.map": "/react_login/static/css/main.a62cbe80.css.map",
-    "main.519e5f8d.js.map": "/react_login/static/js/main.519e5f8d.js.map",
-    "453.38e4fb67.chunk.js.map": "/react_login/static/js/453.38e4fb67.chunk.js.map"
+    "main.css": "/%3Chttps://HarshalAtkar.github.io/react_login%3E/static/css/main.a62cbe80.css",
+    "main.js": "/%3Chttps://HarshalAtkar.github.io/react_login%3E/static/js/main.918edf46.js",
+    "static/js/453.38e4fb67.chunk.js": "/%3Chttps://HarshalAtkar.github.io/react_login%3E/static/js/453.38e4fb67.chunk.js",
+    "index.html": "/%3Chttps://HarshalAtkar.github.io/react_login%3E/index.html",
+    "main.a62cbe80.css.map": "/%3Chttps://HarshalAtkar.github.io/react_login%3E/static/css/main.a62cbe80.css.map",
+    "main.918edf46.js.map": "/%3Chttps://HarshalAtkar.github.io/react_login%3E/static/js/main.918edf46.js.map",
+    "453.38e4fb67.chunk.js.map": "/%3Chttps://HarshalAtkar.github.io/react_login%3E/static/js/453.38e4fb67.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a62cbe80.css",
-    "static/js/main.519e5f8d.js"
+    "static/js/main.918edf46.js"
   ]
 }
