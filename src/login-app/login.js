@@ -43,10 +43,13 @@ const RegistrationForm = () => {
     setConfirmPassword(newConfirmPassword);
     setConfirmPasswordValid(validateConfirmPassword(newConfirmPassword));
   };
+  
+  const handleBlur = () => {
+    console.log('Input blurred');
+  };
 
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = (W) => {
+    W.preventDefault()
     if (emailValid && passwordValid && confirmPasswordValid) {
       alert('Form submitted successfully!');
     } else {
@@ -62,9 +65,10 @@ const RegistrationForm = () => {
           type="email"
           value={email}
           onChange={handleEmailChange}
+          onBlur={handleBlur}
           style={{ border: emailValid ? '2px solid green' : '2px solid red' }}
         />
-        {!emailValid && <p>Error: Invalid email format</p>}
+        {emailValid ?   <p> OK </p> : <p>Error: Invalid email format</p>}
       </div>
       <div>
         <label>Password:</label>
@@ -84,7 +88,7 @@ const RegistrationForm = () => {
           onChange={handleConfirmPasswordChange}
           style={{ border: confirmPasswordValid ? '2px solid green' : '2px solid red' }}
         />
-        {!confirmPasswordValid && <p>Error: Passwords do not match</p>}
+        {!confirmPasswordValid ? <p> </p> : <p>Error: Passwords do not match</p>}
       </div>
       <button type="submit">Submit</button>
     </form>
